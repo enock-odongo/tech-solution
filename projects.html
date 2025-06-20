@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Enock Odongo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Enock Odongo</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="projects fade-in">
+            <h1><marquee>My Projects</marquee></h1>
+            <p>Explore my hands-on projects in Network Engineering and Cybersecurity, built for real and fictional organizations and companies in Kenya and around the world. My projects demonstrate hands-on expertise in designing secure, scalable network infrastructures and implementing cybersecurity solutions. They cover enterprise network design, firewall configuration, device hardening, wireless deployment and vulnerability assessment. Each project reflects <strong>real-world scenarios</strong>, showcasing my ability to solve complex challenges and deliver professional, standards-based networking and security solutions.</p>
+            <div class="project-grid">
+                <div class="project-card slide-in-left">
+                    <img src="images/topology.jpg" alt="NairobiTech Project" loading="lazy">
+                    <h3>Enterprise Network Design for Lakeview Level 5 Hospital</h3>
+                    <p>I designed a Layer 2 and Layer 3 network using a three-tier architecture for Lakeview Hospital. Departments such as Records, Pharmacy and Labs were assigned unique VLANs. I implemented inter-VLAN routing, DHCP, ACLs for security and static routing for internal communication.</p>
+                    <a href="pdf/Lakewiew-Hospital-Network-Infrastructure-Project.pdf" class="btn btn-primary">View Project</a>
+                </div>
+                <div class="project-card slide-in-right">
+                    <img src="images/device hardening (6).jpg" alt="CoastLink Project" loading="lazy">
+                    <h3>Dual ISP WAN Redundancy for Kisumu County ICT Hub</h3>
+                    <p>Built a redundant WAN solution with static routing and floating static routes. ISP1 (Safaricom) was primary and ISP2 (Zuku) served as backup. NAT and route tracking ensured zero downtime. ACLs were added to restrict traffic.</p>
+                    <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+                <div class="project-card slide-in-left">
+                    <img src="images/device hardening (7).jpg" alt="SafiNet Project" loading="lazy">
+                    <h3>Campus Network with Layer 3 Switching for University of Wollongong in Dubai</h3>
+                    <p>Designed a full campus network using Layer 3 switches at the distribution layer. Configured EIGRP for routing, HSRP for default gateway redundancy and PortFast with BPDU Guard for loop prevention.</p>
+                    <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+                <div class="project-card slide-in-right">
+                    <img src="images/device hardening (2).jpg" alt="KenyaConnect Project" loading="lazy">
+                    <h3>VoIP Network Deployment for Jomo Kenyatta International Airport</h3>
+                    <p>Deployed Cisco Call Manager Express on ISR router. Created voice VLANs, configured DHCP for phones and registered multiple IP phones. QoS was implemented to prioritize voice traffic across switches.</p>
+                    <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+                <div class="project-card slide-in-left">
+                    <img src="project5.jpg" alt="SmartFarm Project" loading="lazy">
+                    <h3>Wireless Network for Nairobi Smart Mall</h3>
+                    <p>Configured multiple SSIDs for staff and guests. Integrated WPA2-Enterprise authentication with Radius. Implemented client isolation for guest network and ensured roaming between APs using a controller-based system.</p>
+                    <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+                <div class="project-card slide-in-right">
+                    <img src="project6.jpg" alt="RemoteWork Project" loading="lazy">
+                    <h3>Basic SD-WAN Simulation for Absa Bank Kenya Branches</h3>
+                    <p>Simulated an SD-WAN between Mumbai HQ in India, New York in USA, Kisumu in Kenya and China branches. Used vManage to configure application-aware routing and centralized policy control. Enabled DIA (direct internet access) for branch internet breakout.</p>
+                    <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+                <div class="project-card slide-in-left">
+                    <img src="images/device hardening (1).jpg" alt="AfriBank Project" loading="lazy">
+                    <h3>Cisco Device Hardening for Lakeview Level 5 Hospital</h3>
+                    <p>Implemented SSH, disabled unused services, encrypted passwords, configured banners, set port security on switches and applied AAA with Radius. Conducted password policy enforcement and SNMPv3 setup to ensure industry standards.</p>
+                    <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+                <div class="project-card slide-in-right">
+                    <img src="project8.jpg" alt="eShop Project" loading="lazy">
+                    <h3>Vulnerability Assessment for DigiKenya eCommerce</h3>
+                    <p>Performed internal and external scans on DigiKenya's test network. Identified open ports, outdated Apache versions and weak SSH ciphers. Delivered a professional report including CVSS scores and mitigation strategies and prioritized vulnerabilities using OpenVAS.</p>
+                    <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+                <div class="project-card slide-in-left">
+                    <img src="project9.jpg" alt="MediCare Project" loading="lazy">
+                    <h3>Incident Response Plan for Kenya National Assembly Offices</h3>
+                    <p>Developed a response strategy outlining detection, containment, eradication and recovery. Simulated a ransomware incident using logs and traffic analysis. Documented all steps including chain of custody and report writing.</p>
+                    <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+                <div class="project-card slide-in-right">
+                    <img src="project10.jpg" alt="JuaKali Project" loading="lazy">
+                    <h3>Palo Alto, ASA Firewall & IPS Setup for Fictional Safaricom Company</h3>
+                    <p>Configured pfSense, firewall zones, ACLs, NAT, DMZ services and an intrusion prevention policy. Simulated common attack traffic and demonstrated IPS blocking rules. Also configured application level and geographical location traffic blocking on firewalls.</p>
+                    <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer fade-in">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Access</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Me</h3>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/your-profile" target="_blank">
+                        <img src="images/linkediniin-removebg-preview.png" alt="LinkedIn" class="social-icon">
+                    </a>
+                    <a href="https://github.com/your-profile" target="_blank">
+                        <img src="images/github-logo-removebg-preview.png" alt="GitHub" class="social-icon">
+                    </a>
+                    <a href="https://twitter.com/your-profile" target="_blank">
+                        <img src="images/twitter-x-logo-removebg-preview.png" alt="Twitter" class="social-icon">
+                    </a>
+                    <a href="https://instagram.com/your-profile" target="_blank">
+                        <img src="images/instagram-logo-removebg-preview.png" alt="Instagram" class="social-icon">
+                    </a>
+                    <a href="https://twitter.com/your-profile" target="_blank">
+                        <img src="images/facebook-logo-removebg-preview.png" alt="Facebook" class="social-icon">
+                    </a>
+                    <a href="https://instagram.com/your-profile" target="_blank">
+                        <img src="images/whatspp-logo-removebg-preview.png" alt="WhatsApp" class="social-icon">
+                    </a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Details</h3>
+                <p>Email: odongoenock4@gmail.com</p>
+                <p>Phone: +254 795 221 642</p>
+                <p>Address: P.O. Box 0100, Nairobi, Kenya</p>
+            </div>
+            <div class="footer-section">
+                <h3>Rights & Disclaimer</h3>
+                <p>© 2025 My Portfolio. All rights reserved.</p>
+                <p>This is the official website and portfolio of Enock Odongo, showcasing personal projects and expertise in network engineering and cybersecurity. All content is original and intended for professional and educational purposes only. Unauthorized copying, misuse or misrepresentation of any material is strictly prohibited and legally protected.. <a href="privacy-policy.html">Privacy Policy.</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
